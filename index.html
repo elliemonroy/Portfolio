@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Ellie Monroy</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/portfolio.css">
+    </head>
+
+    <!-- BODY -->
+    <body class="Background">
+
+        <!-- NAVBAR -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- BREAKS INSERTED TO ADD SPACE BETWEEN NAVBAR AND THE FIRST HEADING -->
+        <br>
+        <br>
+
+        <!-- BACKGROUND VIDEO -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./Images/Video/women_typing.mp4" type="video/mp4">
+                <!-- DISPLAY MESSAGE IF VIDEO FAILS TO RUN -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- VIDEO TEXT -->
+        <div class="Video_Text">
+            <h1 class="white-text">Ellie's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>If you always put limits on everything you do,
+                    <br>physical or anything else. It will spread into
+                    <br>your work and into your life. There are no limits.
+                    <br>There are only plateaus, and you must not stay there,
+                    <br>you must go beyond them.</q>
+                    <br>-Bruce Lee
+                    <br>
+                    <br>My name is Ellie Monroy. Welcome to my portfolio website!
+                </p>
+            </strong>
+        </div>   
+        
+        <!-- ABOUT SECTION -->
+        <div class="Row" id="About">
+            <!-- LEFT COLUMN -->
+            <div class="Column_2">
+            <div class="shrink">
+                <img src="./Images/coder.png" alt="girl_on_computer">
+            </div>
+            </div>
+            <!-- RIGHT COLUMN -->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p> On the path to become a software developer, I'm a student at The Tech Academy. 
+                    At the end of this course I will be trained in the following web and
+                    programming languages: Python, C#, JavaScript, HTML, CSS, SQL and more! 
+                    Something you should know about me is that I like to go on hikes with my dog, Drako 
+                    and I love to travel with my boyfriend.
+                </p>
+            </div>
+        </div>
+
+        <!-- GITHUB SECTION -->
+        <div class="Row" id="GitHub">
+            <!-- LEFT COLUMN -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p> 
+                    You can view my projects on my GitHub profile below:
+                    <br>
+                    <p class="center"><a href="https://github.com/elliemonroy" target="_blank">Ellie's GitHub</a></p>
+                </p>
+            </div>
+            <!-- RIGHT COLUMN -->
+            <div class="Column_2">
+            <div class="shrink">
+                <a href="https://github.com/elliemonroy" target="_blank"><img src="./Images/GitHub-Mark.png" alt="GitHub Logo"></a>
+            </div>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div class="Row" id="Contact">
+            <!-- CONTACT IMAGE, LEFT COLUMN -->
+            <div class="Column_2 Column_tall">
+            <div class="shrink">
+                <img src="./Images/sms-mail-g2d497d196_1280.png" alt="Contact_Image">
+            </div>
+            </div>
+            <!-- CONTACT FORM, RIGHT COLUMN -->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+            <!-- THIS SPECIFIES WHERE AND HOW TO SEND THE FORM DATA -->
+            <form action="https://formspree.io/f/xoqzjdjr" method="POST"><!-- HERE WE ARE USING 3RD PARTY SERVICE TO SUBMIT THE CONTACT FORM DATA -->
+            <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+            <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+            <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+          </div>
+        </div>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>
+            <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+        </br>
+        </p>
+    </footer>
+    </body>
+</html>
+
+
