@@ -177,7 +177,7 @@ footer {
 }
 
 /* Screens that are 576px and smaller will not display the background video */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
     #Typing_Video {
     display: none;
     }
