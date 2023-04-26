@@ -136,7 +136,7 @@ footer {
     text-decoration: none; /* This gets rid of the unerlines under the text on our navbar */
     font-family: "Comic Sans MS";
     font-size: 1.5vw; 
-    text-align: center;
+    text-align: center; /* This aligns text to be in the center */
     position: relative; /* This sets the text relative to it's normal positioning, allowing us to use the animation below */
     -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
     animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */
