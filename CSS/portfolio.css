@@ -49,8 +49,6 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify; /* Justify text within paragraph elements */
     font-size: 2.5vw;   /*Relative font sizing equal to 2.5% of the viewport width */
-    padding-left: 1vw; /* Relative padding equal to 1% of the viewport width */
-    padding-right: 1vw; /* Relative padding equal to the 1% of the viewport width */
 }
 
 /* PARAGRAPH ELEMENT HOVER EFFECT */
